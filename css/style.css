@@ -12,6 +12,8 @@ header{
 
 }
 
+/*Logo*/
+
 .logo{
     display: flex;
     align-items: center;
@@ -20,6 +22,8 @@ header{
     width: 88px;
     padding: 0 25px;
 }
+
+/*navigation bar*/
 nav{
     display: flex;
     
@@ -62,6 +66,8 @@ nav ul li a:hover{
     margin: 12px auto;
     overflow: hidden;
 }
+
+/*Products*/
 .cards
 {
     display: flex;
@@ -90,6 +96,7 @@ nav ul li a:hover{
 .container{
     min-height: 100vh - calc(100vh-58px-12vh);
 }
+/*Footer*/
 footer{
     height: 8vh;
     background-color: var(--main-bg-color);
